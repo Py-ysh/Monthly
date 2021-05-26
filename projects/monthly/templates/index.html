@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="{{url_for('static', filename="assets/img/favicon.ico")}}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{url_for('static', filename="css/styles.css")}}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">양성훈</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{url_for('static', filename="assets/img/titanic.jpg")}}" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#introduction">타이타닉 침몰 사고</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">생존자와 사망자</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- Introduction-->
+            <section class="resume-section" id="introduction">
+                <div class="resume-section-content">
+                    <p>
+                    <h3>
+                        <span class="text-primary">Monthly Project</span>
+                    </h3>   
+                    <h2 class="mb-0">
+                        데이터와 함께보는 타이타닉 침몰 사고
+                    </h2>
+                    </p><br>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">세계 최고의 호화 여객선 타이타닉호 침몰</h3>
+                            <div class="subheading mb-3">&nbsp-&nbsp1912년 4월 15일 새벽 2시 20분 침몰</div>
+                            <p>
+                                &nbsp&nbsp• 승객의 대다수는 새로운 삶을 찾아 미국으로 가는 이민자들이었다.<br>
+                                &nbsp&nbsp• 1912년 4월 14일 23시 40분에 높이 20미터의 빙산과 충돌했다.<br>
+                                &nbsp&nbsp• 당시 타이타닉호에는 20척의 구명정이 있었으며 최대 정원은 1178명이었다.<br>
+                                &nbsp&nbsp• 승선인원 2230명 중 1514명이 사망하였고 생존자는 706명에 불과했다.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><img src="{{url_for('static', filename="assets/img/Sinking.jpg")}}"></div>
+                    </div><br>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">큰 인명 피해가 발생하게된 원인</h3>
+                            <br><br>
+                            <p>
+                                &nbsp&nbsp• 빙산 경고 메시지가 선장에게 제대로 전달되지 않아 항로를 바꾸지 못했다.<br>
+                                &nbsp&nbsp• 망원경 보관함 열쇠도 항구에 두고 왔고, 달빛도 없어 견시들이 맨눈으로 식별하기 매우 어려웠다.<br>
+                                &nbsp&nbsp• 게다가 빙산의 대부분은 바다 밑에 있기 때문에 알아냈을 때는 늦었다.<br>
+                                &nbsp&nbsp• 조타수가 갑작스러운 상황에 잠깐동안 우현 전타와 좌현 전타를 헷갈려했다.<br>
+                                &nbsp&nbsp• 리벳 또한 불량이었다.<br>
+                                &nbsp&nbsp• 격벽 구조에 문제가 있어 해수가 하나둘씩 흘러갔다.<br>
+                                &nbsp&nbsp• 게다가 충돌 사실을 인지했음에도 불구하고 한동안 계속 전진하였다.<br>
+                                &nbsp&nbsp• 가장 가까웠던 배인 캘리포니안호의 유일한 무선사 에반스는<br>
+                                &nbsp&nbsp&nbsp&nbsp 타이타닉호의 조난신호 발신 당시 통신장비를 끄고 자고 있었다.<br>
+                                &nbsp&nbsp• 3등객 승객들이 탈출에 여러 가지 어려움을 겪었다. 일단 후에는 대부분 나오긴 했지만<br>
+                                &nbsp&nbsp&nbsp&nbsp 이미 많은 구명보트가 떠난 상태였다.<br>
+                                &nbsp&nbsp• 구명보트의 정원이 탑승객들의 절반 밖에 안됐다.<br>
+                                &nbsp&nbsp• 정원을 초과해도 모자라는 판에 많은 수의 구명보트가 꽉 채우지 않은 상태로 보내졌다.<br>
+                                &nbsp&nbsp• 타이타닉을 제조할 때 사용한 철의 강도가 문제였는데 이 당시의 기술로는<br>
+                                &nbsp&nbsp&nbsp&nbsp 현재 조선에 사용하는 수준의 철을 제조할 수가 없었다.<br>
+                                &nbsp&nbsp&nbsp&nbsp 즉, 황이 너무 많이 함유되어 강도가 약해진 철을 사용한 것이 문제였다.<br>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <br><br>
+                            <img src="{{url_for('static', filename="assets/img/t_sinking.jpg")}}"><br><br><br>
+                            <img src="{{url_for('static', filename="assets/img/t_sinking2.jpg")}}">
+                        </div>
+                    </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">생존자와 사망자</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">노블리스 오블리제, 위기속에서도 여성과 아이를 먼저 살려</h3>
+                            <div class="subheading mb-3">- 그 속에 감춰진 진실</div>
+                            <p>
+                                &nbsp&nbsp• 1등 항해사 머독은 더 이상 여성과 아이들이 보이지 않으면 남자를 태우는 것을 허용했다.<br>
+                                &nbsp&nbsp• 하지만, 2등 항해사 라이톨러는 "여자와 어린이 먼저"를 "여자와 어린이만"으로 받아들여 혼란을 막기 위해<br> 
+                                &nbsp&nbsp&nbsp&nbsp&nbsp여성과 어린이 우선의 관습을 철저히 실시했다.<br>
+                                &nbsp&nbsp• 그 결과 여자와 어린이만 태웠기 때문에 자리가 있었음에도 남자는 승무원들이 거부하였고 그로인해 구명보트<br>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp정원의 절반도 못태운채 보트가 내려간 것이다. <br>
+                                &nbsp&nbsp• 1등실에 탑승한 어린이 중에서는 당시 2살이던 헬렌 로레인 알리슨양만 유일하게 구조되지 못했으며 2등실에<br>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp탑승한 어린이는 전원 구조되었다.<br>
+                                &nbsp&nbsp• 2등실에 탑승한 성인남자 승객은 168명 중 겨우 14명만 구조되어 92%에 달하는 인원인 154명이 바다에 수장되었다.<br>
+                                &nbsp&nbsp• 특이하게 이민자들보다도 신분이 낮은 하인들이 많이 구조되었다. 하인들의 경우 고위인사들을 보좌하기 위해 1등실에<br>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp탑승한 상태였는데 해당 하인의 주인들이 자신의 하인을 구조하라고 승무원들에게 요구했기 때문이었다. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1", id="piegraph">
+                            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+                            <script src = "https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+                            <script>      
+                                var graphs = {{plot | safe}}                             
+                                Plotly.plot('piegraph',graphs,{});                                         
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
